@@ -1,3 +1,5 @@
+CONTAINS PARAMETERS IN ENGLISH AND SPANISH
+
 This optimizer is a collection of tools, scripts, registry edits and configurations focused on improving Windows performance, reducing latency, optimizing internet connection and tweaking different system aspects for gaming and general use.
 
 The pack includes optimizations related to:
