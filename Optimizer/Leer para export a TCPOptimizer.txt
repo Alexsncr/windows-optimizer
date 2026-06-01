@@ -1,1 +1,0 @@
-El archivo export.spg se debe importar a TCPOptimizer.exe. Hace los mismos cambios que la configuración de la carpeta Optimizer en el apartado de Network pero para asegurarse, es recomendable importar el export.spg, aplicar y reiniciar el pc.
