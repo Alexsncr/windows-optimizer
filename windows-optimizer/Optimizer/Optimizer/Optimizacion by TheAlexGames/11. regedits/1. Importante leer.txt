@@ -1,0 +1,11 @@
+El script realiza ajustes en el registro de Windows para controlar la configuración del modo de tableta convertible y la separación de prioridad para procesos Win32.
+Estas modificaciones pueden tener impacto en cómo se gestionan las prioridades de procesos y cómo el sistema maneja dispositivos convertibles.
+
+Equipo\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl
+
+Modificar:
+-Win32PrioritySeparation
+
+28 para mas estabilidad de FPS
+27 balanceado entre mas fps y menos imput delay
+26 para el menor input delay "No recomendado para jugar y streamear o grabar en la misma pc".
