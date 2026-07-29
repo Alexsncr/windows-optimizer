@@ -1,0 +1,46 @@
+@echo off
+sc config "WManSvc" start= disabled
+sc config "WinRM" start= disabled
+sc config "WFDSConMgrSvc" start= disabled
+sc config "WbioSrvc" start= disabled
+sc config "WalletService" start= disabled
+sc config "vmicvss" start= disabled
+sc config "vmicvmsession" start= disabled
+sc config "vmictimesync" start= disabled
+sc config "vmicshutdown" start= disabled
+sc config "vmicrdv" start= disabled
+sc config "vmickvpexchange" start= disabled
+sc config "vmicheartbeat" start= disabled
+sc config "vmicguestinterface" start= disabled
+sc config "UmRdpService" start= disabled
+sc config "uhssvc" start= disabled
+sc config "UevAgentService" start= disabled
+sc config "tzautoupdate" start= disabled
+sc config "TapiSrv" start= disabled
+sc config "SysMain" start= disabled
+sc config "ssh-agent" start= disabled
+sc config "Spooler" start= disabled
+sc config "shpamsvc" start= disabled
+sc config "SEMgrSvc" start= disabled
+sc config "SCPolicySvc" start= disabled
+sc config "SCardSvr" start= disabled
+sc config "RpcLocator" start= disabled
+sc config "RmSvc" start= disabled
+sc config "RetailDemo" start= disabled
+sc config "RemoteRegistry" start= disabled
+sc config "RemoteAccess" start= disabled
+sc config "PrintNotify" start= disabled
+sc config "NetTcpPortSharing" start= disabled
+sc config "MsKeyboardFilter" start= disabled
+sc config "MixedRealityOpenXRSvc" start= disabled
+sc config "HvHost" start= disabled
+sc config "Fax" start= disabled
+sc config "DialogBlockingService" start= disabled
+sc config "DiagTrack" start= disabled
+sc config "diagsvc" start= disabled
+sc config "CertPropSvc" start= disabled
+sc config "BDESVC" start= disabled
+sc config "autotimesvc" start= disabled
+sc config "AppVClient" start= disabled
+pause
+msg * Servicios optimizados sin romper Xbox/Store.
